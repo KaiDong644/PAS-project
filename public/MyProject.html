@@ -90,64 +90,53 @@
         </div>
     </div>
 
-    <div>
-        <div class="newProject">
-            <div class="projectName">
-                <div class="pName">
+    
+    <div class="newProject">
+        <div class="generalInfo">
+            <div class="row projectName">
+                <div class="col pName">
                     <p>Project name</p>
                 </div>
-                <div class="pNameData">
-                    <p>x</p>
-                </div>
+                <input type="text" class="col pNameData data" placeholder="Name">
             </div>
-            <div class="projectCode">
-                <div class="pCode">
+            <div class="row projectCode"> <!--khong duoc chon-->
+                <div class="col pCode">
                     <p>Project code</p>
                 </div>
-                <div class="pCodeData">
+                <div class="col pCodeData data">
                     <p>VN7312</p>
                 </div>
             </div>
-            <div class="projectMembers">
-                <div class="pMembers">
+            <div class="row projectMembers">
+                <div class="col pMembers">
                     <p>Members</p>
                 </div>
-                <div class="pMembersData">
-                    <p>2</p>
-                </div>
+                <input type="text" class="col pMembersData data" placeholder="Number">
             </div>
-            <div class="projectYourRole">
-                <div class="pYourRole">
+            <div class="row projectYourRole">
+                <div class="col pYourRole">
                     <p>Your role</p>
                 </div>
-                <div class="pYourRoleData">
-                    <p>Manager</p>
-                </div>
+                <input type="text" class="col pYourRoleData data" placeholder="Your role">
             </div>
-            <div class="projectYourDeadline">
-                <div class="pYourDeadline">
+            <div class="row projectYourDeadline">
+                <div class="col pYourDeadline">
                     <p>Your deadline</p>
                 </div>
-                <div class="pYourDeadlineData">
-                    <p>25/12/2024</p>
-                </div>
+                <input type="text" class="col pYourDeadlineData data" placeholder="DD/MM/YY">
+
             </div>
         </div>
-        
-        <div> <!--2 nut create va cancel-->
-            <div class="create">
-                <div class="createBackground">
 
-                </div>
-                <p>Create</p>
-            </div>
-            <div class="cancel">
-                <div class="cancelBackground">
-
-                </div>
-                <p>Cancel</p>
-            </div>
+        <div class="createCancel"> <!-- 2 nut create va cancel -->
+            <a href="#" class="chosenBox cancel">
+                Cancel
+            </a>
+            <a href="#" class="chosenBox create">
+                Create
+            </a>
         </div>
     </div>
+    
 
 </html>

@@ -152,6 +152,10 @@ a {
     right: 0;
 }
 
+.plus:hover {
+    opacity: 0.7;
+}
+
 .iconPlus {
     margin: 10px 10px;
 }
@@ -198,12 +202,17 @@ a {
     display: inline-block;
 }
 
+.chosenBox:hover {
+    opacity: 0.7;
+}
+
 .create {
     margin-left: 5%;
 }
 
 
 .boxProject {
+    border: 2px solid rgba(0, 0, 0, 0.5);
     background-color: #ccc;
     padding: 10px 30px;
     margin: 2% 10%;
@@ -223,9 +232,13 @@ a {
 }
 
 .followProjectBox {
-    border-radius: 25px;
+    border-radius: 10px;
     font-size: 20px;
     margin: 0 5%;
+}
+
+.followProjectBox:hover {
+    opacity: 0.7;
 }
 
 .projectJoin {
@@ -247,4 +260,29 @@ a {
     width: 200px;  /* Đặt chiều rộng cho input */
     padding: 10px;
     margin: 20px auto;
+}
+
+.newProject {
+    border: 2px solid black;
+    background-color: #ccc;
+    border-radius: 10px;
+    display: block;
+    top: 25%;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
+    position: fixed;
+    text-align: center;
+}
+
+.generalInfo {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5px;
+}
+
+.newProject .data {
+    margin-top: 15px;
+    width: 200px;
 }
