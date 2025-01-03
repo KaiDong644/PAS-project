@@ -137,7 +137,7 @@ ul {
     color: green;
 }
 
-button {
+.plus {
     border-radius: 25px;
     float: right;
     font-size: 20px;
@@ -203,4 +203,32 @@ button {
 }
 
 
+.boxProject {
+    background-color: #ccc;
+    padding: 10px 30px;
+    margin: 2% 10%;
+    display: inline-block;
+    border-radius: 10px;
+}
 
+.text {
+    font-size: 15px;
+    line-height: 3px;
+}
+
+.data {
+    opacity: 0.5;
+    padding: 0 20px;
+    float: right;
+}
+
+.followProjectBox {
+    border-radius: 25px;
+    font-size: 20px;
+    margin: 0 5%;
+}
+
+.followProjectBox a {
+    text-decoration: none;
+    color: black;
+}
