@@ -1,0 +1,206 @@
+ul {
+    list-style-type: none;
+}
+
+.text-center{
+    text-align: center !important; 
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.mt-8 {
+    margin-top: 8px !important;
+}
+
+.mt-16 {
+    margin-top: 16px !important;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.col {
+    padding-left: 8px;
+    padding-right: 8px;
+    float: left;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.col-third {
+    width: 33.33333%;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.sidebar {
+    position: fixed;
+    border-right: 2px solid #ccc;
+}
+
+.box {
+    border-left: 2px solid black; /* Đường viền bên trái */
+    height: 100px; /* Chiều cao của phần tử */
+    padding: 10px; /* Khoảng cách bên trong */
+}
+
+.sidebar a i {
+    color: black;
+    text-decoration: none;
+    display: block;
+    line-height: 130px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+.sidebar a i:hover {
+    color: gray;
+}
+
+.info {
+    font-size: 20px;
+}
+.info i {
+    font-size: 120px;
+    margin-left: 25%;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.text-info {
+    margin-left: 40%;
+    margin-top: -12%;
+    font-size: 40px;
+}
+
+.userInfo {
+    text-align: 30px;
+    font-size: 30px;
+}
+
+.avt-name {
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.id-log {
+    margin-left: 55%;
+    margin-top: -10%;
+}
+
+.userBox {
+    margin-left: 5%;
+}
+
+.borderBox-member {
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    line-height: 15px;
+}
+
+.name-Role-member {
+    margin-left: 80px;
+    margin-top: -5%;
+}
+
+.avatar {
+    font-size: 40px;
+    display: inline;
+}
+.dots {
+    font-size: 25px;
+    text-align: right;
+    padding-right: 30px;
+    margin-top: -50px;
+    color: green;
+}
+
+button {
+    border-radius: 25px;
+    float: right;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.iconPlus {
+    margin: 10px 10px;
+}
+
+.khung {
+    position: fixed;
+    background-color: #ccc;
+    border-radius: 25px;
+    left: 20%;
+    top: 20%;
+    bottom: 20%;
+    right: 20%;
+}
+
+.add-member-content {
+    text-align: center;
+}
+
+.khungNho {
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px 20%;
+}
+
+.joinCode , .idProject {
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.typeOfRole , .deadline , .userCode-Task {
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.khungTuyChonMini {
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+    background-color: white;
+    align-items: center;
+    padding: 0 20px;
+    display: inline-block;
+}
+
+.cancel {
+    text-align: left;
+    justify-content: left;
+    margin-left: 35%;
+}
+
+.create {
+    text-align: right;
+    justify-content: right;
+    margin-left: 5%;
+}
+
+
+

@@ -1,0 +1,16 @@
+{
+  "name": "pas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "KaiDong",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "fs-extra": "^11.2.0",
+    "path": "^0.12.7"
+  }
+}
