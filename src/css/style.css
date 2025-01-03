@@ -2,6 +2,12 @@ ul {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
 .text-center{
     text-align: center !important; 
 }
@@ -156,8 +162,9 @@ ul {
     border-radius: 25px;
     left: 20%;
     top: 20%;
-    bottom: 20%;
+    bottom: auto;
     right: 20%;
+    text-align: center;
 }
 
 .add-member-content {
@@ -187,18 +194,11 @@ ul {
     background-color: white;
     align-items: center;
     padding: 0 20px;
+    margin: 15px 0;
     display: inline-block;
 }
 
-.cancel {
-    text-align: left;
-    justify-content: left;
-    margin-left: 35%;
-}
-
 .create {
-    text-align: right;
-    justify-content: right;
     margin-left: 5%;
 }
 
@@ -228,7 +228,23 @@ ul {
     margin: 0 5%;
 }
 
-.followProjectBox a {
-    text-decoration: none;
-    color: black;
+.projectJoin {
+    background-color: #ccc;
+    border-radius: 10px;
+    display: block;
+    top: 35%;
+    bottom: 35%;
+    left: 35%;
+    right: 35%;
+    position: fixed;
+}
+
+.projectJoin {
+    text-align: center;
+}
+
+.textJoinCode {
+    width: 200px;  /* Đặt chiều rộng cho input */
+    padding: 10px;
+    margin: 20px auto;
 }
