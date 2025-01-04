@@ -112,16 +112,17 @@ a {
 .userInfo {
     text-align: 30px;
     font-size: 30px;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-left: 30%;
 }
 
-.avt-name {
-    margin-left: 25%;
-    margin-top: 10%;
+.changeAvatar .userId {
+    margin-bottom: 3%;
 }
 
 .id-log {
-    margin-left: 55%;
-    margin-top: -10%;
+    margin-left: 10%;
 }
 
 .userBox {
@@ -318,7 +319,7 @@ a {
   
   .friend-list {
     width: 200px; /* adjust width as needed */
-    background-color: #f7f7f7;
+    background-color: whitesmoke;
     border-right: 1px solid #ddd;
     padding: 10px;
     overflow-y: auto;
@@ -353,9 +354,10 @@ a {
   }
   
   .chat-header {
-    background-color: #f7f7f7;
+    background-color: #ccc;
     border-bottom: 1px solid #ddd;
     padding: 10px;
+    border-radius: 10px;
   }
   
   .chat-messages {
