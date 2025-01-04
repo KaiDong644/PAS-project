@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/src/css/themify-icons-font (1)/themify-icons/themify-icons.css">
     <title>PROJECT ADMINISTRATOR SYSTEM</title>
 </head>
-<body>
+<body class="col-full">
     <div class="col sidebar"> 
         <a href="MyInfo.html"><i class="row ti-user"></i></a>
         <a href="ProjectManage.html"><i class="row ti-layers"></i></a>
@@ -16,35 +16,27 @@
         <a href="MyProject.html"><i class="row ti-layout-grid3"></i></a>
     </div>
 
-    <div class="content"> 
-        <div class="chatBackground">
-            <div class="boxChatBackground">
-
-            </div>
-            <div class="boxText">
-
-            </div>
-            <div class="boxTexting">
-
-            </div>
+    <!-- chat -->
+    <div class="col chat-container">
+        <div class="friend-list">
+        <h2>Box chat</h2>
+        <ul>
+            <li>AI support</li>
+            <li class="pNameData">First project</li>
+            <!-- add more friends here -->
+        </ul>
         </div>
-
-        <div class="boxChat">
-            <div class="userInfo">
-                <div class="avatar">
-                    <img id="img-avatar" src="">
-                </div>
-                <div class="userName">
-
-                </div>
-                <div class="userRole">
-
-                </div>
-            </div>
-            <div class="contentChat">
-                <p>abc</p>
-            </div>
+        <div class="chat-window">
+        <div class="chat-header">
+            <h2>First project</h2>
         </div>
-        
+        <div class="chat-messages">
+            <!-- chat messages will go here -->
+        </div>
+        <div class="chat-input">
+            <input type="text" placeholder="Type a message...">
+            <button>Send</button>
+        </div>
+        </div>
     </div>
 </html>
