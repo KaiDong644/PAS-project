@@ -18,7 +18,7 @@ body {
     margin-bottom: 20px;
     text-align: center;
 }
-.login-container input[type="text"],
+.login-container input[type="text"], 
 .login-container input[type="password"] {
     width: 100%;
     padding: 10px;
@@ -30,12 +30,12 @@ body {
 .login-container button {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #822dea;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 .login-container button:hover {
-    background-color: #45a049;
+    background-color: #9248ec;
 }
