@@ -234,6 +234,7 @@ a {
     display: block;
     border-radius: 10px;
     width: 200px;
+    flex-wrap: wrap;
 }
 
 .text {
