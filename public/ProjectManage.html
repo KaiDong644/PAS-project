@@ -16,122 +16,50 @@
         <a href="MyProject.html"><i class="row ti-layout-grid3"></i></a>
     </div>
 
-    <div class="content">
-        <div> <!--phan bat buoc-->
-            <div class="todayDate">
+    <div class="content taskBoxDeadline">
+        <div class="todayDate">
                 <time datetime="2024-12-20">Today 20/12/2024</time>
             </div>
-            <div class="productBox">
-                <div class="productBackground"> <!--cai khung cua box-->
-
-                </div>
-                <p>Product</p>
-                <time datetime="2024-12-24">24/12/2024</time>
-            </div>
-            <div class="finalEditBox">
-                <div class="finalEditBackground"> <!--cai khung cua box-->
-
-                </div>
-                <p>Final Edit</p>
-                <time datetime="2024-12-20">20/12/2024</time>
-            </div>
+        </div>    
+            
+        <!--phan bat buoc-->
+        <div class="productBox">
+            <p class="pName">Product</p>
+            <time class="timeDeadline" datetime="2024-12-24"> Deadline: 24/12/2024</time>
         </div>
-        <div> <!--hang 3 trong figma-->
-            <div class="partABox">
-                <div class="partABackground"> <!--cai khung cua box-->
-
-                </div>
-                <p>Part A</p>
-                <time datetime="20224-12-13">13/12/2024</time>
-            </div>
-            <div class="partBBox">
-                <div class="partBBackground"> <!--cai khung cua box-->
-
-                </div>
-                <p>Part B</p>
-                <time datetime="2024-12-15">15/12/2024</time>
-            </div>
+        <div class="finalEditBox">
+            <p>Final Edit</p> <!--dung doi phan nay a!-->
+            <time class="timeDeadline" datetime="2024-12-20">Deadline: 20/12/2024</time> <!--cai nay doi ne-->
         </div>
-        <div>
-            <div> <!--hang 4 trong figma-->
-                <div> <!--cua part A-->
-                    <div class="contentPartABox">
-                        <div class="contentPartABackground"> <!--cai khung cua box-->
         
-                        </div>
-                        <p>Content part A</p>
-                        <time datetime="20224-12-07">07/12/2024</time>
-                    </div>
-                    <div class="pictureAndInfomationBox">
-                        <div class="pictureAndInfomationBackground"> <!--cai khung cua box-->
-        
-                        </div>
-                        <p>Picture And Infomation</p>
-                        <time datetime="20224-12-07">07/12/2024</time>
-                    </div>
-                </div>
-                <div> <!--cua part B-->
-                    <div class="contentPartBBox">
-                        <div class="contentPartBBackground"> <!--cai khung cua box-->
-        
-                        </div>
-                        <p>Content part B</p>
-                        <time datetime="20224-12-09">09/12/2024</time>
-                    </div>
-                    <div class="diagramsBox">
-                        <div class="diagramsBackground"> <!--cai khung cua box-->
-        
-                        </div>
-                        <p>Diagrams</p>
-                        <time datetime="20224-12-09">09/12/2024</time>
-                    </div>
-                </div>
-            </div>
+
+        <!--hang 3 trong figma-->
+        <div class="contentTaskBox">
+            <p class="nameTask">Part A</p>
+            <time datetime="20224-12-13">Deadline: 13/12/2024</time>
         </div>
+        
     </div>
     
-    <div> <!--bang tao task moi-->
-        <p>Create task</p> <!--tieu de bang-->
-        <div> <!--noi dung nhap-->
-            <div class="nameTask">
-                <div class="nameTaskBackground">
-
-                </div>
-                <p>Name task</p>
-            </div>
-            <div class="userName-Task">
-                <div class="userName-TaskBackground">
-
-                </div>
-                <p>User name</p>
-            </div>
-            <div class="typeOfRole">
-                <div class="typeOfRoleBackground">
-
-                </div>
-                <p>Type of role</p>
-            </div>
-            <div class="deadline">
-                <div class="deadlineBackground">
-
-                </div>
-                <p>Deadline</p>
-            </div>
+    <div class="createNewTask"> <!--bang tao task moi-->
+        <p class="title">Create task</p> <!--tieu de bang-->
+        <div class="mainContentCreateTaskBox"> <!--noi dung nhap-->   
+            <input type="text" class="input nameTask" placeholder="Name task">
+            <input type="text" class="input userId-Task" placeholder="User ID">
+            <input type="text" class="input typeOfRole" placeholder="Type of role">
+            <input type="text" class="input deadline" placeholder="Deadline">
         </div>
-        <div> <!--2 nut create va cancel-->
-            <div class="create">
-                <div class="createBackground">
-
-                </div>
-                <p>Create</p>
-            </div>
-            <div class="cancel">
-                <div class="cancelBackground">
-
-                </div>
-                <p>Cancel</p>
-            </div>
+        <div class="createCancel"> <!-- 2 nut create va cancel -->
+            <a href="#" class="chosenBox cancel">
+                Cancel
+            </a>
+            <a href="#" class="chosenBox create">
+                Create
+            </a>
         </div>
     </div>
+    <button class="plus">
+        <p class="iconPlus"><i class="ti-plus"></i></p>
+    </button>
 
 </html>

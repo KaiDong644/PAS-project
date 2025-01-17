@@ -174,7 +174,7 @@ a {
 }
 
 .createTaskBox {
-    height: 65%;    
+    height: 60%;    
     position: fixed;
     background-color: #ccc;
     border-radius: 25px;
@@ -185,8 +185,7 @@ a {
     text-align: center;
 }
 
-.add-member-content {
-    
+.add-member-content {  
     text-align: center;
 }
 
@@ -202,7 +201,7 @@ a {
     opacity: 0.7;
 }
 
-.typeOfRole , .deadline , .userCode-Task {
+.typeOfRole , .deadline , .userCode-Task, .nameTask, .userId-Task {
     font-style: italic;
     opacity: 0.7;
 }
@@ -397,4 +396,43 @@ a {
   
   .chat-input button:hover {
     background-color: #3e8e41;
+  }
+  
+  .title{
+    font-size: 20px;
+  }
+
+  .todayDate {
+    display: block;
+    position: fixed;
+    left: 45vw;
+    font-weight: bold;
+  }
+
+  .productBox , .finalEditBox , .contentTaskBox {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    width: 200px;
+    background-color: #ddd;
+    display: block;
+    padding: 10px 30px;
+    margin: 2% 10%;
+    text-align: center;
+  }
+
+  .createNewTask {
+    height: 30%;    
+    position: fixed;
+    background-color: #ccc;
+    border-radius: 25px;
+    margin: 2% 5%;
+    left: 30%;
+    top: 25%;
+    bottom: auto;
+    right: 30%;
+    text-align: center;
+  }
+
+  .mainContentCreateTaskBox > .input {
+    margin-top: 1%;
+    margin-bottom: 5%;
   }
