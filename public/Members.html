@@ -102,6 +102,8 @@
             </ul>
         </div>
         
+        
+        
         <button class="plus">
             <p class="iconPlus"><i class="ti-plus"></i></p>
         </button>
@@ -109,30 +111,80 @@
 
         <div class="createTaskBox"> <!--bang tao task moi -->
             <div class="add-member-content"> <!--noi dung nhap-->
-                <div class="miniBox">
+                <div class="infomationBox">
                     <p class="joinCode">Join code</p> <!--tieu de bang-->
                 </div>
-                <div class="miniBox">
-                    <p class="idProject">VN0001</p>
+                <div class="infomationBox">
+                    <p class="idProject">VN000001</p>
                 </div>
-                <div class="miniBox">
+                <div class="infomationBox">
                     <p class="userCode-Task">User member id</p>
                 </div>
-                <div class="miniBox">
+                <div class="infomationBox">
                     <p class="typeOfRole">User member role</p>
                 </div>
-                <div class="miniBox ">
+                <div class="infomationBox ">
                     <p class="deadline">Deadline</p>
                 </div>
             </div>
             <div class="createCancel"> <!-- 2 nut create va cancel -->
-                <a href="#" class="chosenBox cancel">
+                <a href="#" class="confirmationButton cancel">
                     Cancel
                 </a>
-                <a href="#" class="chosenBox create">
+                <a href="#" class="confirmationButton create">
                     Create
                 </a>
             </div>
         </div>
+
+        <button class="filter">
+            <p class="iconFilter"><i class="ti-filter"></i></p>
+        </button>
+        <!-- lam tu day -->
+        <div class="settingMemberBox">
+
+            <div class="settingMemberHeading">
+                <h3>Setting member box</h3>
+            </div>
+
+            <div class="settingMemberBody">
+
+                <div class="roleInfo">
+                    <p class="typeOfRoleCreateTag managerTag"><i class="ti-bookmark"></i></p>
+                    <p class="typeOfRoleCreate manager">Manager</p>
+                </div>
+
+                <div class="roleInfo">
+                    <p class="typeOfRoleCreateTag leaderTag"><i class="ti-bookmark"></i></p>
+                    <p class="typeOfRoleCreate leader">Leaders</p>
+                </div>
+
+                <div class="roleInfo">
+                    <p class="typeOfRoleCreateTag setUpRoleTag"><i class="ti-bookmark"></i></p>
+                    <p class="typeOfRoleCreate setUpRole">Set up role</p>
+                </div>
+
+                <div class="roleInfo">
+                    <p class="typeOfRoleCreateTag normalTag"><i class="ti-bookmark"></i></p>
+                    <p class="typeOfRoleCreate normal">Normal members</p>
+                </div>
+
+                <div class="roleInfo">
+                    <p class="typeOfRoleCreateTag noneTag"><i class="ti-bookmark"></i></p>
+                    <p class="typeOfRoleCreate none">None role members</p>
+                </div>
+
+            </div>
+
+            <div class="settingMemberFoot">
+                <div class="functionKey roleAndAdminButton">
+                    <p>+ Invite as admin</p>
+                </div>
+                <div class="settingRole roleAndAdminButton">
+                    <p>+ Add role</p>
+                </div>
+            </div>
+        </div>
+
     </div>
 </html>
