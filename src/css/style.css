@@ -72,10 +72,6 @@ a {
     border-right: 2px solid #ccc;
 }
 
-.sidebarIcons{
-    margin-left: 20px;
-}
-
 .box {
     border-left: 2px solid black; /* Đường viền bên trái */
     height: 100px; /* Chiều cao của phần tử */
@@ -84,15 +80,8 @@ a {
 
 .sidebar a i {
     color: black;
-    top: 0;
-    bottom: 0;
-    /* line-height: 100px; */
+    line-height: 20vh;
     font-size: 25px;
-}
-
-.sidebarIcon{
-    top: 0;
-    bottom: 0;
 }
 
 .sidebar a {
