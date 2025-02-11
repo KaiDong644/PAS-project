@@ -131,12 +131,18 @@ a {
 
 .borderBox-member {
     border: 2px solid #f1f1f1;
-    border-radius: 10px;
+    border-radius: 5px;
     padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
     margin-bottom: 5px;
     line-height: 15px;
+}
+
+.borderBox-member:hover{
+    border: 2px solid #000;
+    box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .name-Role-member {
@@ -157,13 +163,28 @@ a {
 }
 
 .plus,
-.filter {
-    border-radius: 25px;
+.filter{
+    background-color: #ddd;
+    border: 2px solid #000;
+    border-radius: 20px;
     float: right;
     font-size: 20px;
     position: fixed;
     bottom: 0;
     right: 0;
+}
+
+
+.plus:hover{
+    background-color: #c7c7c7;
+    color: #3b3b3b;
+    cursor: pointer;
+}
+
+.filter:hover{
+    background-color: #8a8989;
+    color: #3b3b3b;
+    cursor: pointer;
 }
 
 .filter {
@@ -175,16 +196,22 @@ a {
     margin: 10px 10px;
 }
 
-.createTaskBox {
-    height: 65%;    
+.content .createTaskBox{
+    text-align: center;
+    height: auto;    
     position: fixed;
     background-color: #ccc;
-    border-radius: 25px;
-    left: 20%;
-    top: 20%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    left: 30%;
+    top: 30%;
     bottom: auto;
-    right: 20%;
+    right: 30%;
     text-align: center;
+}
+
+.informationBox{
+    margin-bottom: 10px;
 }
 
 .add-member-content {  
@@ -212,7 +239,6 @@ a {
     border: 2px solid #f1f1f1;
     border-radius: 10px;
     background-color: white;
-    align-items: center;
     padding: 0 20px;
     margin-top: 1%;
     margin-bottom: 5%;
