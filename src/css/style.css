@@ -69,7 +69,7 @@ a {
     top: 0;
     bottom: 0;
     padding-right: 2%;
-    border-right: 2px solid #ccc;
+    border-right: 2px solid #73411f;
 }
 
 .box {
@@ -79,9 +79,13 @@ a {
 }
 
 .sidebar a i {
-    color: black;
+    color: #73411f;
     line-height: 20vh;
     font-size: 25px;
+}
+
+.sidebar .row{
+    text-align: center;
 }
 
 .sidebar a {
@@ -89,7 +93,7 @@ a {
 }
 
 .sidebar a i:hover {
-    color: gray;
+    color: #e0c4a0;
 }
 
 .info {
@@ -129,6 +133,7 @@ a {
 }
 
 .borderBox-member {
+    background-color: #e0c4a0;
     border: 2px solid #f1f1f1;
     border-radius: 5px;
     padding-left: 20px;
@@ -139,7 +144,7 @@ a {
 }
 
 .borderBox-member:hover{
-    border: 2px solid #000;
+    border: 2px solid #452815;
     box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
@@ -163,8 +168,8 @@ a {
 
 .plus,
 .filter{
-    background-color: #ddd;
-    border: 2px solid #000;
+    background-color: #b6885d;
+    border: 2px solid #73411f;
     border-radius: 20px;
     float: right;
     font-size: 20px;
@@ -174,13 +179,13 @@ a {
 }
 
 .plus:hover{
-    background-color: #c7c7c7;
+    background-color: #e0c4a0;
     color: #3b3b3b;
     cursor: pointer;
 }
 
 .filter:hover{
-    background-color: #8a8989;
+    background-color: #e0c4a0;
     color: #3b3b3b;
     cursor: pointer;
 }
@@ -198,7 +203,7 @@ a {
     text-align: center;
     height: auto;    
     position: fixed;
-    background-color: #ccc;
+    background-color: #b6885d;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     left: 30%;
@@ -252,9 +257,10 @@ a {
 }
 
 .settingMemberBox{
-    background-color: #ddd;
+    color: #000;
+    background-color: #b6885d;
     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.1);
-    border: #9b9b9b solid 2px;
+    border: #73411f solid 2px;
     border-radius: 5px;
     height: 550px;
     width: 250px;
@@ -273,7 +279,7 @@ a {
 
 .settingMemberBox .settingMemberHeading, .settingMemberFoot{
     height: auto;
-    background-color: #ddd;
+    background-color: #b6885d;
     position: absolute;
     left: 0;
     right: 0;
@@ -281,7 +287,7 @@ a {
 
 .settingMemberBox .settingMemberHeading{
     top: 0;
-    border-bottom: 2px solid #9b9b9b;
+    border-bottom: 2px solid #73411f;
 }
 
 .settingMemberBox .settingMemberFoot{
@@ -293,7 +299,7 @@ a {
 }
 
 .settingMemberFoot .functionKey, .settingRole{
-    border: 1px solid #000;
+    border: 1px solid #73411f;
     border-radius: 5px;
 }
 
@@ -302,7 +308,7 @@ a {
 }
 
 .roleAndAdminButton:hover {
-    background-color: #c7c7c7;
+    background-color: #e0c4a0;
     color: #3b3b3b;
     cursor: pointer;
 }
@@ -319,7 +325,7 @@ a {
 }
 
 .roleInfo:hover{
-    border: 1px solid #000;
+    border: 1px solid #452815;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
@@ -345,8 +351,8 @@ a {
 }
 
 .boxProject {
-    border: 2px solid rgba(0, 0, 0, 0.5);
-    background-color: #ccc;
+    border: 2px solid #73411f;
+    background-color: #e0c4a0;
     padding: 10px 30px;
     margin: 2% 10%;
     display: block;
@@ -376,8 +382,8 @@ a {
 }
 
 .projectJoin {
-    background-color: #ccc;
-    border: 2px solid #f1f1f1;
+    background-color: #b6885d;
+    border: 2px solid #73411f;
     border-radius: 5px;
     display: block;
     top: 35%;
@@ -400,8 +406,8 @@ a {
 .newProject {
     width: 45%;
     height: 55%;
-    border: 2px solid black;
-    background-color: #ccc;
+    border: 2px solid #73411f;
+    background-color: #b6885d;
     border-radius: 5px;
     display: block;
     top: 25%;
@@ -440,7 +446,7 @@ a {
   
   .friend-list {
     width: 200px; /* adjust width as needed */
-    background-color: whitesmoke;
+    background-color: #e0c4a0;
     border-right: 1px solid #ddd;
     padding: 10px;
     overflow-y: auto;
@@ -458,11 +464,11 @@ a {
   
   .friend-list li {
     padding: 10px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid black;
   }
   
   .friend-list li:hover {
-    background-color: #eee;
+    background-color: #b6885d;
     cursor: pointer;
   }
   
@@ -475,7 +481,7 @@ a {
   }
   
   .chat-header {
-    background-color: #ccc;
+    background-color: #b6885d;
     border-bottom: 1px solid #ddd;
     padding: 10px;
     border-radius: 5px;
@@ -500,7 +506,7 @@ a {
   }
   
   .chat-input button {
-    background-color: #4CAF50;
+    background-color: #b6885d;
     color: #fff;
     padding: 10px 20px;
     margin-top: 1%;
@@ -513,7 +519,7 @@ a {
   }
   
   .chat-input button:hover {
-    background-color: #3e8e41;
+    background-color: #e0c4a0;
   }
   
   .title{
@@ -528,9 +534,9 @@ a {
   }
 
   .productBox , .finalEditBox , .contentTaskBox {
-    border: 2px solid rgba(0, 0, 0, 0.5);
+    border: 2px solid #73411f;
     width: 200px;
-    background-color: #ddd;
+    background-color: #e0c4a0;
     display: block;
     padding: 10px 30px;
     margin: 2% 10%;
@@ -541,7 +547,7 @@ a {
     height: auto;
     width: auto;    
     position: fixed;
-    background-color: #ccc;
+    background-color: #b6885d;
     border-radius: 5px;
     margin: 2% 5%;
     left: 30%;
