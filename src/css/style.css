@@ -1,12 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 ul {
     list-style-type: none;
-    margin-left: -2%;
     margin-right: 2%;
 }
 
 .content {
     display: inline;
-    margin-left: 15%;
+    margin-left: 5vw;
 }
 
 a {
@@ -66,10 +71,14 @@ a {
 
 .sidebar {
     position: fixed;
+    left: 0;
     top: 0;
     bottom: 0;
-    padding-right: 2%;
+    width: 5vw;
     border-right: 2px solid #73411f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .box {
@@ -80,8 +89,8 @@ a {
 
 .sidebar a i {
     color: #73411f;
-    line-height: 20vh;
     font-size: 25px;
+    display: block;
 }
 
 .sidebar .row{
@@ -90,6 +99,7 @@ a {
 
 .sidebar a {
     text-decoration: none;
+    width: 100%;
 }
 
 .sidebar a i:hover {
